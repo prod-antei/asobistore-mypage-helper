@@ -3,9 +3,12 @@
   "name": "商品名取得拡張",
   "version": "1.0",
   "permissions": [
-    "scripting",
-    "activeTab",
-    "https://shop.asobistore.jp/*"
+  "scripting",
+  "activeTab"
+  ],
+  "host_permissions": [
+    "https://shop.asobistore.jp/*",
+    "http://shop.asobistore.jp/*"
   ],
   "background": {
     "service_worker": "background.js"

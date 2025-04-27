@@ -1,6 +1,6 @@
 chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
   if (message.action === 'fetchProductName') {
-    fetch(message.url)
+    fetch(message.url, { credentials: 'include' })
       .then(response => response.text())
       .then(htmlText => {
         // HTML文字列をパース
