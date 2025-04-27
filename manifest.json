@@ -10,9 +10,6 @@
     "https://shop.asobistore.jp/*",
     "http://shop.asobistore.jp/*"
   ],
-  "background": {
-    "service_worker": "background.js"
-  },
   "content_scripts": [
     {
       "matches": ["https://shop.asobistore.jp/mypage/orderhistory*"],
