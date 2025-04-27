@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "商品名取得拡張",
+  "version": "1.0",
+  "permissions": [
+    "scripting",
+    "activeTab",
+    "https://shop.asobistore.jp/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://shop.asobistore.jp/mypage/orderhistory*"],
+      "js": ["content_script.js"]
+    }
+  ]
+}
+
