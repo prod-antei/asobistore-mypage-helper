@@ -1,0 +1,1 @@
+# asobistore-mypage-helper
