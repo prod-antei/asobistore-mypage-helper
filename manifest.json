@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "商品名取得拡張",
+  "name": "Asobistore マイページ注文履歴 商品名表示拡張 ",
   "version": "1.0.0",
   "permissions": [
   "scripting",
